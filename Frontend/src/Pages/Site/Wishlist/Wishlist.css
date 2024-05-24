@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1400px) {
+    
+    .wishlistCol {
+        width: 50%;
+       .card{
+        width: 500px !important;
+       } 
+
+    }
+  
+   
+}
+
+@media only screen and (max-width: 1200px) {
+    .wishlistCol {
+        .card{
+            width: 400px !important;
+           } 
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .inputCol{
+
+        margin: 0 auto;
+    }
+    .wishlistCol {
+        width: 55%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+    .wishlistCol {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    
+    .wishlistCol {
+        width: 100%;
+    }
+    .sortCol{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

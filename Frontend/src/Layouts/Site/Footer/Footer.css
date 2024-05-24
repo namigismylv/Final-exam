@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #111111;
+    padding-top: 117px;
+    padding-bottom: 90px;
+    p{
+        font-size: 25px;
+        color: white;
+    }
+   
+
+}
+@media only screen and (max-width: 440px) {
+    .footer {
+      width: 408.91px;
+    }
+}

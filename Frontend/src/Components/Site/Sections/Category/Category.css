@@ -1,0 +1,94 @@
+.category__div {
+    padding-top: 50px;
+    padding-bottom: 117px;
+
+    .card-title {
+        font-weight: 500;
+        font-size: 22px;
+        color: #333333;
+        line-height: 24.2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Poppins";
+        letter-spacing: 3px;
+        margin-top: 30px;
+
+    }
+
+    input {
+        padding: 8px 12px;
+        outline: none;
+    }
+
+    .card {
+        border: none;
+
+        img {
+            border-radius: 10px;
+        }
+    }
+
+    .card-text {
+        font-size: 15px;
+        font-weight: 400;
+        color: #666666;
+        line-height: 25.5px;
+        font-family: "MontSerrat";
+        margin-top: 5px;
+    }
+}
+.sort__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 1400px) {
+    
+    .cardCol {
+        width: 50%;
+       .card{
+        width: 500px !important;
+       } 
+
+    }
+  
+   
+}
+
+@media only screen and (max-width: 1200px) {
+    .cardCol {
+        .card{
+            width: 400px !important;
+           } 
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .inputCol{
+
+        margin: 0 auto;
+    }
+    .cardCol {
+        width: 55%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+    .cardCol {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    
+    .cardCol {
+        width: 100%;
+    }
+    .sortCol{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

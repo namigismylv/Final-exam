@@ -1,0 +1,45 @@
+.wishlist__button{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    .wishlist__btn{
+    background-color: transparent;
+        border: none;   
+        color: chocolate;
+        i{
+            font-size: 20px;
+        }
+    }
+}
+.wishlist{
+    padding-top: 127px;
+    padding-bottom: 117px;
+}
+
+.wishlistCard{
+    position: relative;
+    border: none;
+    img{
+        border-radius: 10px;
+    }
+
+}
+.w-title{
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    line-height: 24.2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+.w-text{
+    font-size: 15px;
+        font-weight: 400;
+        color: #666666;
+        line-height: 25.5px;
+        font-family: "MontSerrat";
+        margin-top: 5px;
+}
